@@ -1,0 +1,39 @@
+.todo{
+    position: relative;
+}
+.toggle{
+    background: rgb(47, 78, 253);
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+}
+.delete{
+    font-size: 18px;
+    background: rgb(255, 0, 0);
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.inp{
+    padding: 6px 10px;
+    font-size: 18px;
+}
+.add{
+    padding: 8px 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: rgb(0, 184, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+}
