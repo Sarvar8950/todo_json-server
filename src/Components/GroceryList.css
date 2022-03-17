@@ -1,5 +1,12 @@
 .todo{
     position: relative;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.todo:hover{
+    border: 2px solid #000;
 }
 .toggle{
     background: rgb(47, 78, 253);
@@ -12,23 +19,33 @@
     cursor: pointer;
     color: #fff;
 }
+.toggle:hover{
+    background: #fff;
+    outline: 1px solid rgb(47, 78, 253);
+    color: rgb(47, 78, 253);
+}
 .delete{
     font-size: 18px;
     background: rgb(255, 0, 0);
     border: none;
-    outline: none;
+    outline: 1px solid rgb(255, 0, 0);
     padding: 8px 15px;
     border-radius: 4px;
     margin: 0 10px;
     color: #fff;
     cursor: pointer;
 }
+.delete:hover{
+    background: #fff;
+    outline: 1px solid rgb(255, 0, 0);
+    color: red;
+}
 .inp{
     padding: 6px 10px;
     font-size: 18px;
 }
 .add{
-    padding: 8px 15px;
+    padding: 8px 20px;
     font-size: 18px;
     margin-left: 10px;
     cursor: pointer;
@@ -36,4 +53,9 @@
     color: #fff;
     border: none;
     outline: none;
+}
+.add:hover{
+    background: #fff;
+    color: rgb(0, 184, 0);
+    outline: 1px solid rgb(0, 184, 0);
 }

@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    margin-top: 20px;
+}
+.main{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.prev, .next{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 18px;
+    background: rgb(63, 63, 255);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: 1px solid rgb(63, 63, 255);
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+    background: #fff;
+    color: rgb(62, 62, 255);
+    outline: 1px solid rgb(62, 62, 255);
+}
