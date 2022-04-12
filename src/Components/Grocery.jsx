@@ -90,7 +90,7 @@ function Grocery() {
     return isLoading ? <h1>... LOADING</h1> : isError ? <h1>ERROR... SOMETHING IS WRONG</h1> : (
         <div className='container'>
             <GroceryInput addList={addList}/>
-            <h1>Todo Lists</h1>
+            <h1>Grocery Lists</h1>
             <div className="main">
                 {item.map((item) =>
                     <GroceryList {...item} key={item.id} togglebtn={togglebtn} deletebtn={deletebtn}/>
