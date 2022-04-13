@@ -58,8 +58,3 @@ It was a solo project. It took 2 days to complete.
   <li>"web-vitals": "^2.1.4"</li>
 </ul>
 
-## Project images
-
-<img href="" alt = "home" />
-<img href="" alt = "home" />
-<img href="" alt = "home" />
