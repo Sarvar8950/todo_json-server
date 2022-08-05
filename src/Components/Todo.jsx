@@ -90,7 +90,7 @@ function Todo() {
     return isLoading ? <h1>... LOADING</h1> : isError ? <h1>ERROR... SOMETHING IS WRONG</h1> : (
         <div className='container'>
             <TodoInput addList={addList}/>
-            <h1>Grocery Lists</h1>
+            <h1>Todo Lists</h1>
             <div className="main">
                 {item.map((item) =>
                     <TodoList {...item} key={item.id} togglebtn={togglebtn} deletebtn={deletebtn}/>
