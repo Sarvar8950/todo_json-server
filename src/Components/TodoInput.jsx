@@ -1,7 +1,7 @@
 import React from 'react'
-import "./GroceryList.css"
+import "./TodoList.css"
 
-function GroceryInput({addList}) {
+function TodoInput({addList}) {
     var [inp, setInp] = React.useState("")
     function handelInp(e) {
         setInp(e.target.value)
@@ -14,4 +14,4 @@ function GroceryInput({addList}) {
     )
 }
 
-export { GroceryInput }
+export { TodoInput }

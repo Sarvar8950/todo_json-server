@@ -1,10 +1,10 @@
 import React from 'react'
-import { GroceryInput } from './GroceryInput'
-import { GroceryList } from './GroceryList'
+import { TodoInput } from './TodoInput'
+import { TodoList } from './TodoList'
 import {v4 as uuid} from "uuid"
-import "./Grocery.css"
+import "./Todo.css"
 
-function Grocery() {
+function Todo() {
     const [item, setItem] = React.useState([])
     const [page, setPage] = React.useState(1)
     const [isError, setIsError] = React.useState(false)
@@ -89,11 +89,11 @@ function Grocery() {
 
     return isLoading ? <h1>... LOADING</h1> : isError ? <h1>ERROR... SOMETHING IS WRONG</h1> : (
         <div className='container'>
-            <GroceryInput addList={addList}/>
+            <TodoInput addList={addList}/>
             <h1>Grocery Lists</h1>
             <div className="main">
                 {item.map((item) =>
-                    <GroceryList {...item} key={item.id} togglebtn={togglebtn} deletebtn={deletebtn}/>
+                    <TodoList {...item} key={item.id} togglebtn={togglebtn} deletebtn={deletebtn}/>
                 )}
             </div>
             <br />
@@ -104,4 +104,4 @@ function Grocery() {
     )
 }
 
-export {Grocery}
+export {Todo}

@@ -1,7 +1,7 @@
 import React from 'react'
-import "./GroceryList.css"
+import "./TodoList.css"
 
-function GroceryList({title,status,id,togglebtn,deletebtn}) {
+function TodoList({title,status,id,togglebtn,deletebtn}) {
     return (
         <div className='todo'>
             <h2>{title}</h2>
@@ -12,4 +12,4 @@ function GroceryList({title,status,id,togglebtn,deletebtn}) {
     )
 }
 
-export {GroceryList}
+export {TodoList}
